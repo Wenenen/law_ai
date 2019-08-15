@@ -158,30 +158,152 @@ def cal_class_evaluation(class_name):
     print('\n')
 
 
+def replace_str(str_example):
+    return str(str_example).replace(' ', '').replace('\n', '')
+
+
+def cal_query_pn(n):
+    # 加载字典
+    query_dir = 'queryFloder'
+    files = os.listdir(query_dir)
+    query_dic = {}
+    for filename in files:
+        file_path = os.path.join(query_dir, filename)
+        with open(file_path, mode='r', encoding='utf-8') as f:
+            lines = f.readlines()
+            for line in lines:
+                line = replace_str(line)
+                query_dic[line] = filename.replace('.txt', '')
+
+    files = os.listdir(data_dir)
+    file_cnt = 0
+    res = []
+    for filename in files:
+        if filename.find('label') >= 0:
+            file_cnt += 1
+            file_path = os.path.join(data_dir, filename)
+            with open(file_path, mode='r', encoding='utf-8') as f:
+                # print(file_path)
+                data = json.load(f)
+                correct_case = 0
+                for doc in data['1']['documents']:
+                    if int(doc) > n:
+                        break
+                    if data['1']['documents'][doc]['Label'] == '正确' or data['1']['documents'][doc]['Label'] == '相关':
+                        correct_case += 1
+                res.append(('%.6f' % (correct_case / n), query_dic[replace_str(str(data['1']['query']))], replace_str(str(data['1']['query']))))
+    res.sort(reverse=True)
+    with open('p' + str(n) + '_output', mode='a', encoding='utf-8') as f:
+        for re in res:
+            f.write(str(re) + '\n')
+
+
+def cal_query_mrr():
+    # 加载字典
+    query_dir = 'queryFloder'
+    files = os.listdir(query_dir)
+    query_dic = {}
+    for filename in files:
+        file_path = os.path.join(query_dir, filename)
+        with open(file_path, mode='r', encoding='utf-8') as f:
+            lines = f.readlines()
+            for line in lines:
+                line = replace_str(line)
+                query_dic[line] = filename.replace('.txt', '')
+
+    files = os.listdir(data_dir)
+    res = []
+    for filename in files:
+        if filename.find('label') >= 0:
+            file_path = os.path.join(data_dir, filename)
+            with open(file_path, mode='r', encoding='utf-8') as f:
+                # print(file_path)
+                data = json.load(f)
+                flag = True
+                for doc in data['1']['documents']:
+                    if data['1']['documents'][doc]['Label'] == '正确' or data['1']['documents'][doc]['Label'] == '相关':
+                        flag = False
+                        res.append(('%.6f' % (1 / int(doc)), query_dic[replace_str(str(data['1']['query']))], replace_str(str(data['1']['query']))))
+                        break
+                if flag:
+                    res.append(('%.6f' % 0, query_dic[replace_str(str(data['1']['query']))], replace_str(str(data['1']['query']))))
+    res.sort(reverse=True)
+    with open('mrr_output', mode='a', encoding='utf-8') as f:
+        for re in res:
+            f.write(str(re) + '\n')
+
+def get_bad_or_good_query(flag, n):
+    # 加载字典
+    query_dir = 'queryFloder'
+    files = os.listdir(query_dir)
+    query_dic = {}
+    for filename in files:
+        file_path = os.path.join(query_dir, filename)
+        with open(file_path, mode='r', encoding='utf-8') as f:
+            lines = f.readlines()
+            for line in lines:
+                line = replace_str(line)
+                query_dic[line] = filename.replace('.txt', '')
+
+    files = os.listdir(data_dir)
+    file_cnt = 0
+    res = []
+    for filename in files:
+        if filename.find('label') >= 0:
+            file_cnt += 1
+            file_path = os.path.join(data_dir, filename)
+            with open(file_path, mode='r', encoding='utf-8') as f:
+                # print(file_path)
+                data = json.load(f)
+                correct_case = 0
+                for doc in data['1']['documents']:
+                    if int(doc) > n:
+                        break
+                    if data['1']['documents'][doc]['Label'] == '正确' or data['1']['documents'][doc]['Label'] == '相关':
+                        correct_case += 1
+                if flag == 0:       # bad query
+                    if correct_case == 0:
+                        res.append(replace_str(str(data['1']['query'])))
+                elif flag == 1:     # good query
+                    if correct_case == n:
+                        res.append(replace_str(str(data['1']['query'])))
+    if flag == 0:
+        with open('bad_query', mode='a', encoding='utf-8') as f:
+            for re in res:
+                f.write(str(re) + '\n')
+    elif flag == 1:
+        with open('good_query', mode='a', encoding='utf-8') as f:
+            for re in res:
+                f.write(str(re) + '\n')
+
+
+
 if __name__ == '__main__':
     # mAP = cal_mAP()
 
-    pn = []
-    pn.append(cal_pn(1))
-    pn.append(cal_pn(10))
-    print('pn:', pn)
+    # pn = []
+    # pn.append(cal_pn(1))
+    # pn.append(cal_pn(10))
+    # print('pn:', pn)
+    #
+    # mrr = cal_mrr()
+    # print('mrr:', mrr)
+    #
+    # cal_class_evaluation('房地产')
+    # cal_class_evaluation('婚姻家事')
+    # cal_class_evaluation('基础设施')
+    # cal_class_evaluation('劳动纠纷')
+    # cal_class_evaluation('诉讼')
+    # cal_class_evaluation('投资并购')
+    # cal_class_evaluation('债权债务')
+    # cal_class_evaluation('知识产权')
 
-    mrr = cal_mrr()
-    print('mrr:', mrr)
-
-
-    cal_class_evaluation('房地产')
-    cal_class_evaluation('婚姻家事')
-    cal_class_evaluation('基础设施')
-    cal_class_evaluation('劳动纠纷')
-    cal_class_evaluation('诉讼')
-    cal_class_evaluation('投资并购')
-    cal_class_evaluation('债权债务')
-    cal_class_evaluation('知识产权')
-
-
-
-
-
-
+    # 按问题直接排序
+    # cal_query_pn(1)
+    # cal_query_pn(10)
+    # cal_query_mrr()
+    bad = 0
+    good = 1
+    get_bad_or_good_query(bad, 10)
+    get_bad_or_good_query(good, 10)
     # print('mAP', mAP)
