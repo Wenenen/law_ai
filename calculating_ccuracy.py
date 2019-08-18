@@ -276,6 +276,42 @@ def get_bad_or_good_query(flag, n):
             for re in res:
                 f.write(str(re) + '\n')
 
+def cal_top_n_correct(class_name, n):
+    # 加载问题
+    query_file = 'queryFloder\\' + class_name + '.txt'
+    query_dic = {}
+    with open(query_file, mode='r', encoding='utf-8') as f:
+        lines = f.readlines()
+        for line in lines:
+            line = line.replace(' ', '')
+            line = line.replace('\n', '')
+            query_dic[line] = line
+
+    files = os.listdir(data_dir)
+    res = []
+    correct_query = 0
+    query_cnt = 0
+    for filename in files:
+        if filename.find('label') >= 0:
+            file_path = os.path.join(data_dir, filename)
+            with open(file_path, mode='r', encoding='utf-8') as f:
+                # print(file_path)
+                data = json.load(f)
+                query = data['1']['query']
+                query = str(query)
+                query = query.replace(' ', '')
+                query = query.replace('\n', '')
+                if query_dic.get(query) is not None:
+                    query_cnt += 1
+                    for doc in data['1']['documents']:
+                        if int(doc) > n:
+                            break
+                        if data['1']['documents'][doc]['Label'] == '正确' or data['1']['documents'][doc][
+                            'Label'] == '相关':
+                            correct_query += 1
+                            break
+    res = correct_query/query_cnt
+    return class_name, n, res
 
 
 if __name__ == '__main__':
@@ -302,8 +338,16 @@ if __name__ == '__main__':
     # cal_query_pn(1)
     # cal_query_pn(10)
     # cal_query_mrr()
-    bad = 0
-    good = 1
-    get_bad_or_good_query(bad, 10)
-    get_bad_or_good_query(good, 10)
+    # bad = 0
+    # good = 1
+    # get_bad_or_good_query(bad, 10)
+    # get_bad_or_good_query(good, 10)
+    querys = ['房地产', '婚姻家事', '基础设施', '劳动纠纷', '诉讼', '投资并购', '债权债务', '知识产权']
+    topn = [1, 5, 10]
+    for query in querys:
+        for n in topn:
+            class_name, top, score = cal_top_n_correct(query, n)
+            print(class_name, top, '%.6f' % score)
+
+
     # print('mAP', mAP)

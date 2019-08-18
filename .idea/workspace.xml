@@ -2,274 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1700855-0962-4564-93ba-4ea5ddbb35d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bad_case_filename" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bad_log_name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cut_query/cut_bad_query" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cut_query/cut_bad_query.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cut_query/cut_good_query.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cut_query/fenci.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entity2id.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fenxi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fenxi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/get_hight_fre_voc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/get_low_fre_voc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/get_query_log.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/get_word_vec.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/good_bad_query/bad_query" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/good_bad_query/good_query" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/good_log_name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hight_fre_word" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_10.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_100.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_101.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_102.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_103.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_104.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_105.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_106.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_107.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_108.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_109.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_11.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_110.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_111.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_112.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_113.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_114.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_115.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_116.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_117.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_118.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_119.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_12.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_120.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_121.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_122.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_123.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_124.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_125.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_126.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_127.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_128.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_129.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_13.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_130.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_131.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_132.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_133.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_134.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_135.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_136.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_137.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_138.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_139.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_14.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_140.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_141.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_142.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_143.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_144.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_145.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_146.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_147.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_148.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_149.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_15.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_150.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_151.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_152.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_153.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_154.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_155.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_156.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_157.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_158.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_159.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_16.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_160.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_161.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_162.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_163.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_164.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_165.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_166.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_167.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_168.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_169.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_17.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_170.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_171.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_172.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_173.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_174.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_175.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_176.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_177.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_178.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_179.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_18.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_180.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_181.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_182.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_183.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_184.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_185.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_186.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_187.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_188.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_189.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_19.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_190.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_191.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_192.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_193.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_194.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_195.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_196.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_197.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_198.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_199.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_20.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_200.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_201.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_202.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_203.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_204.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_205.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_206.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_207.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_208.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_209.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_21.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_210.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_211.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_212.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_213.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_214.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_215.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_216.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_217.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_218.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_219.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_22.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_220.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_221.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_222.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_223.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_224.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_225.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_226.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_227.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_228.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_229.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_23.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_230.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_231.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_232.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_233.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_234.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_235.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_236.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_237.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_238.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_239.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_24.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_240.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_241.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_242.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_243.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_244.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_245.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_246.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_25.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_26.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_27.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_28.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_29.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_30.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_31.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_32.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_33.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_34.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_35.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_36.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_37.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_38.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_39.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_40.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_41.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_42.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_43.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_44.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_45.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_46.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_47.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_48.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_49.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_5.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_50.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_51.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_52.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_53.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_54.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_55.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_56.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_57.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_58.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_59.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_6.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_60.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_61.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_62.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_63.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_64.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_65.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_66.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_67.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_68.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_69.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_7.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_70.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_71.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_72.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_73.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_74.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_75.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_76.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_77.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_78.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_79.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_8.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_80.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_81.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_82.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_83.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_84.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_85.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_86.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_87.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_88.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_89.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_9.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_90.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_91.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_92.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_93.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_94.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_95.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_96.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_97.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_98.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/mode_full_99.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low_fre_word" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mrr_output" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p10_output" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p1_output" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train_word2vec_w5c5w10.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/calculating_ccuracy.py" beforeDir="false" afterPath="$PROJECT_DIR$/calculating_ccuracy.py" afterDir="false" />
     </list>
@@ -280,7 +12,88 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hight_fre_word">
+          <provider selected="true" editor-type-id="LargeFileEditor">
+            <state relative-caret-position="1978830">
+              <caret line="65961" column="1" selection-start-line="65961" selection-start-column="1" selection-end-line="65961" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/good_log_name">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/get_word_vec.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fenxi.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/calculating_ccuracy.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="351" lean-forward="true" selection-start-line="351" selection-end-line="351" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/p10_output">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-8910">
+              <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/network.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+              <folding>
+                <element signature="e#15#24#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/low_fre_word">
+          <provider selected="true" editor-type-id="LargeFileEditor">
+            <state relative-caret-position="93390">
+              <caret line="3113" column="9" selection-start-line="3113" selection-start-column="9" selection-end-line="3113" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -291,8 +104,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>杨敏</find>
-      <find>王建</find>
       <find>郑</find>
       <find>本</find>
       <find>26321</find>
@@ -321,6 +132,8 @@
       <find>【查询 1 】</find>
       <find>【查询 2 】</find>
       <find>主体</find>
+      <find>cal_class_evaluation</find>
+      <find>cal_class_pn</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -337,7 +150,6 @@
         <option value="$PROJECT_DIR$/cut_bad_query" />
         <option value="$PROJECT_DIR$/fenxi" />
         <option value="$PROJECT_DIR$/good_query" />
-        <option value="$PROJECT_DIR$/calculating_ccuracy.py" />
         <option value="$PROJECT_DIR$/fenci.py" />
         <option value="$PROJECT_DIR$/cut_query/fenci.py" />
         <option value="$PROJECT_DIR$/network.py" />
@@ -346,10 +158,11 @@
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/get_query_log.py" />
         <option value="$PROJECT_DIR$/fenxi.py" />
+        <option value="$PROJECT_DIR$/calculating_ccuracy.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="950" />
     <option name="width" value="980" />
     <option name="height" value="1040" />
@@ -359,6 +172,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -370,7 +184,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -398,8 +211,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.fenxi">
-    <configuration name="fenci (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.calculating_ccuracy">
+    <configuration name="calculating_ccuracy" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="law_ai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -407,12 +220,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cut_query" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cut_query/fenci.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/calculating_ccuracy.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -511,11 +324,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.calculating_ccuracy" />
         <item itemvalue="Python.fenxi" />
         <item itemvalue="Python.get_query_log" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.get_bad_query_log" />
-        <item itemvalue="Python.fenci (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -533,11 +346,14 @@
       <workItem from="1565662335168" duration="2275000" />
       <workItem from="1565664649199" duration="18927000" />
       <workItem from="1565834626142" duration="13942000" />
+      <workItem from="1566032174766" duration="765000" />
+      <workItem from="1566138919831" duration="523000" />
+      <workItem from="1566139728737" duration="2494000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72779000" />
+    <option name="totallyTimeSpent" value="79445000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -552,7 +368,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.18993288" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.21879195" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32905984" />
@@ -562,7 +378,7 @@
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.32905984" />
-      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.16524217" />
+      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.43874645" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -642,13 +458,13 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/law_ai$fenci.coverage" NAME="fenci Coverage Results" MODIFIED="1565677905965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/law_ai$fenxi.coverage" NAME="fenxi Coverage Results" MODIFIED="1565860517951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/law_ai$fenxi.coverage" NAME="fenxi Coverage Results" MODIFIED="1566046549960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/law_ai$fenci__1_.coverage" NAME="fenci (1) Coverage Results" MODIFIED="1565685616607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cut_query" />
     <SUITE FILE_PATH="coverage/law_ai$get_bad_query_log.coverage" NAME="get_bad_query_log Coverage Results" MODIFIED="1565837605869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/law_ai$test.coverage" NAME="test Coverage Results" MODIFIED="1565838517525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/law_ai$get_word_vec.coverage" NAME="get_word_vec Coverage Results" MODIFIED="1565535509416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/law_ai$calculating_ccuracy.coverage" NAME="calculating_ccuracy Coverage Results" MODIFIED="1565685271981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/law_ai$get_query_log.coverage" NAME="get_query_log Coverage Results" MODIFIED="1565859882825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/law_ai$calculating_ccuracy.coverage" NAME="calculating_ccuracy Coverage Results" MODIFIED="1566140729961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://C:/ProgramData/Anaconda3/Lib/json/__init__.py">
@@ -776,13 +592,6 @@
     <entry file="file://$PROJECT_DIR$/log/mode_full_5.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/low_fre_word">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="30">
-          <caret line="3106" column="10" selection-start-line="3106" selection-start-column="10" selection-end-line="3106" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mrr_output">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10213">
@@ -792,30 +601,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/p1_output">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/p10_output">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" column="36" lean-forward="true" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hight_fre_word">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="327">
-          <caret line="69604" column="3" lean-forward="true" selection-start-line="69604" selection-start-column="3" selection-end-line="69604" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/get_word_vec.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -838,16 +623,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/calculating_ccuracy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -887,23 +662,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/good_log_name">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/bad_log_name">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1470">
           <caret line="49" column="41" lean-forward="true" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fenxi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-207">
-          <caret line="87" column="84" selection-start-line="87" selection-start-column="70" selection-end-line="87" selection-end-column="84" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -914,12 +676,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/hight_fre_word">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="1978830">
+          <caret line="65961" column="1" selection-start-line="65961" selection-start-column="1" selection-end-line="65961" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/good_log_name">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_word_vec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fenxi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/network.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="60">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
           <folding>
             <element signature="e#15#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/low_fre_word">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="93390">
+          <caret line="3113" column="9" selection-start-line="3113" selection-start-column="9" selection-end-line="3113" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p10_output">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8910">
+          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculating_ccuracy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="351" lean-forward="true" selection-start-line="351" selection-end-line="351" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
